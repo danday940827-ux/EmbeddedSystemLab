@@ -14,7 +14,7 @@
 
 ```text
 ButtonDetect → 短按／長按 message queue → Task_1 ─┐
-                                         ├→ 取得 LED mutex → 閃爍 → 釋放 mutex
+                                                 ├→ 取得 LED mutex → 閃爍 → 釋放 mutex
 TIM6 中斷 → binary semaphore → Task_2 ───────────┘
 ```
 
@@ -43,7 +43,7 @@ basic 原本用 EXTI 中斷釋放 button semaphore。option A 改用 `ButtonDete
 
 ## 板上測試結果
 
-以下測試都已在開發板上確認正常：
+以下測試都已在開發板上確認成功：
 
 | 測試 | 結果 |
 | --- | --- |
