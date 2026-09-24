@@ -1,14 +1,13 @@
-# Lab 1 — CMSIS-RTOS2 LED control
+# Lab 1 — LED blinking and RTOS API
 
-STM32 CMSIS-RTOS2 課程實驗，完成基本題與選做題 A。
+完成basic + option A。
 
-## 開發環境
+## 環境
 
 - Windows 11、STM32CubeIDE 2.2.0
 - B-L475E-IOT01A1（STM32L475VG）
 - STM32Cube FW_L4 V1.18.2、FreeRTOS CMSIS-RTOS2
 - LED2：PB14；USER 按鈕：PC13，低電位表示按下
-- 使用板載 ST-LINK 燒錄，不需要外接元件。
 
 ## 功能與程式結構
 
@@ -22,13 +21,6 @@ STM32 CMSIS-RTOS2 課程實驗，完成基本題與選做題 A。
 
 主要應用程式在 `Core/Src/main.c`；TIM6 中斷入口在 `Core/Src/stm32l4xx_it.c`。`freertos.c` 目前為產生的空白框架。
 
-## 匯入與執行
-
-1. Clone 或下載此 repository。
-2. 在 STM32CubeIDE 選擇 File → Import → General → Existing Projects into Workspace，選取 `Lab1_led` 目錄。
-3. Build Project。
-4. 以 USB 連接板載 ST-LINK，建立 STM32 C/C++ Application 的 Debug 設定並燒錄。
-5. 按 Resume（F8），讓程式持續執行。
 
 專案保留原始碼、函式庫、linker scripts 與 CubeIDE 專案設定；不包含 Debug/Release 編譯產物與個人 `.launch` 設定。
 
