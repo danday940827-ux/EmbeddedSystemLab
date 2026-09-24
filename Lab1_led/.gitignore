@@ -1,0 +1,17 @@
+# Generated build output
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.su
+*.cyclo
+
+# Local workspace/debug state
+.metadata/
+*.launch
+*.log
+.DS_Store
+Thumbs.db
