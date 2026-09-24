@@ -1,5 +1,5 @@
 # EmbeddedSystemLab
-homework,projects
+homeworks
 
 ## Labs
 
