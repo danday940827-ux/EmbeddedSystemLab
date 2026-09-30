@@ -1,0 +1,17 @@
+host/.venv/
+**/__pycache__/
+host/gui-plot-check.png
+**/Debug/
+**/Release/
+.build-workspace/
+
+# Local credentials and generated artifacts
+**/wifi_config_local.h
+*.log
+**/*.launch
+**/.settings/
+**/*.elf
+**/*.map
+**/*.list
+**/*.o
+**/*.d
