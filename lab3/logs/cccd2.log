@@ -1,0 +1,27 @@
+[15:53:07] scanning 8s ...
+[15:53:08] found 72:b8:fe:9b:50:db (random) RSSI=-59   <-- match
+[15:53:15] scan done: 82 devices seen, 1 matched
+[15:53:15] connecting to 72:b8:fe:9b:50:db (random) ... attempt 1/3
+[15:53:16] connected (MTU 185 requested)
+[15:53:16] discovering services ...
+Service 00001801-0000-1000-8000-00805f9b34fb  (Generic Attribute)  handles 0x0001-0x0009  [skipped]
+Service 00001800-0000-1000-8000-00805f9b34fb  (Generic Access)  handles 0x0014-0x001A  [skipped]
+Service 0000fcc0-0000-1000-8000-00805f9b34fb  (fcc0)  handles 0x0028-0x002D  [skipped]
+Service 00001849-0000-1000-8000-00805f9b34fb  (1849)  handles 0x003C-0x0061  [skipped]
+Service 0000184c-0000-1000-8000-00805f9b34fb  (184c)  handles 0x006E-0x0092  [skipped]
+Service 00001855-0000-1000-8000-00805f9b34fb  (1855)  handles 0x0096-0x0098  [skipped]
+Service 0000fdaa-0000-1000-8000-00805f9b34fb  (fdaa)  handles 0x009A-0x00A0  [skipped]
+
+Service 0e5a1ab3-0000-4000-8000-00000000fff0  (0e5a1ab3-0000-4000-8000-00000000fff0)  handles 0x00A1-0xFFFF
+  Char 0e5a1ab3-0000-4000-8000-00000000fff1  value handle=0x00A3  props=[READ WRITE NOTIFY INDICATE]
+    Desc 00002902-0000-1000-8000-00805f9b34fb  handle=0x00A4  (Client Characteristic Configuration)
+
+[15:53:16] target char 0e5a1ab3-0000-4000-8000-00000000fff1  value handle=0x00A3  props=[READ WRITE NOTIFY INDICATE]  CCCD handle=0x00A4
+[15:53:16] CCCD before : 0x0000 (disabled) raw=00 00
+[15:53:16] >> ATT Write Request handle=0x00A4 value=02 00  (CCCD = 0x0002, indication)
+[15:53:16] << ATT Write Response OK
+[15:53:16] CCCD after  : 0x0002 (indication) raw=02 00
+[15:53:16] listening 300s — 在手機上對這個 characteristic 按 Notify/Indicate 送資料
+[15:56:10] << #1 handle=0x00A3 [0e5a1ab3-0000-4000-8000-00000000fff1] hex=48 65 6c 6c 6f 20 50 69 text="Hello Pi"
+[15:58:17] received 1 notification/indication(s)
+[15:58:17] disconnected

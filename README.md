@@ -9,3 +9,5 @@ homeworks
 
 
 - [Lab 2 — Wi-Fi 感測器與 Significant Motion](lab2/README.md)：三軸加速度、TCP 即時曲線與硬體中斷事件。
+
+- [Lab 3 — BLE Central（Raspberry Pi + Python）](lab3/README.md)：Pi 以 bluepy 連線 Android GATT server，將 CCCD 設為 0x0002 並接收 indication。
