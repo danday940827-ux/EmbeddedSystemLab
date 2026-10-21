@@ -1,0 +1,91 @@
+Scanning 5s for 'JJLDY_1' ...
+Found JJLDY_1: e7:78:39:49:b6:8d (random), RSSI=-58 dB
+Connecting ...
+Connected. Service and characteristics found.
+>>> sampling frequency set to 10 Hz
+x=   -52  y=  -348  z=  1790  (mg)   [2.0 notifications/s]
+Significant motion notifications enabled.
+Notifications enabled. Type a frequency + Enter to change it, q to quit.
+
+x=  -516  y=  -141  z=   882  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#43) at 14:59:02 ***
+
+x=   403  y=  -376  z=   194  (mg)   [9.8 notifications/s]
+x=  -183  y=  -210  z=  -408  (mg)   [9.8 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#44) at 14:59:04 ***
+
+x=  -102  y=  -105  z=   536  (mg)   [10.3 notifications/s]
+x=    45  y=  -474  z=  1554  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#45) at 14:59:06 ***
+
+x=   -98  y=  -493  z=  1231  (mg)   [9.8 notifications/s]
+x=   145  y=  -408  z=   202  (mg)   [10.3 notifications/s]
+x=  -142  y=  -573  z=  1856  (mg)   [9.8 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#46) at 14:59:09 ***
+
+x=  -153  y=  -340  z=    -6  (mg)   [9.8 notifications/s]
+x=   -43  y=  -543  z=  1451  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#47) at 14:59:11 ***
+
+x=   -44  y=  -494  z=   999  (mg)   [9.8 notifications/s]
+x=   -18  y=  -503  z=   873  (mg)   [10.3 notifications/s]
+x=   252  y=  -373  z=   128  (mg)   [9.8 notifications/s]
+x=  -312  y=  -262  z=   749  (mg)   [9.8 notifications/s]
+x=     8  y=  -445  z=   550  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#48) at 14:59:17 ***
+
+x= -1154  y=    -8  z=   469  (mg)   [10.3 notifications/s]
+x= -1119  y=   -86  z=  1467  (mg)   [9.8 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#49) at 14:59:18 ***
+
+x=  -762  y=    63  z=   627  (mg)   [9.8 notifications/s]
+x=  -136  y=  -205  z=  -195  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#50) at 14:59:21 ***
+
+x=   -58  y=  -356  z=  1998  (mg)   [9.8 notifications/s]
+x=    76  y=  -620  z=   890  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#51) at 14:59:23 ***
+
+x=  -100  y=  -247  z=  -475  (mg)   [9.8 notifications/s]
+x=  -319  y=  -218  z=  -672  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#52) at 14:59:25 ***
+
+x=  -305  y=  -264  z=  -869  (mg)   [9.8 notifications/s]
+x=   512  y=   -90  z=  -450  (mg)   [10.3 notifications/s]
+x=  -481  y=  -235  z=    91  (mg)   [9.8 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#53) at 14:59:27 ***
+
+x=   141  y=  -579  z=  1998  (mg)   [10.3 notifications/s]
+x=  -218  y=  -417  z=  1998  (mg)   [9.8 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#54) at 14:59:30 ***
+
+x=    38  y=  -387  z=  1998  (mg)   [9.8 notifications/s]
+x=  -104  y=  -345  z=   418  (mg)   [9.8 notifications/s]
+x=  -435  y=  -226  z=   993  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#55) at 14:59:33 ***
+
+x=   421  y=  -154  z=  1998  (mg)   [9.8 notifications/s]
+x=   667  y=  -295  z=  -431  (mg)   [10.3 notifications/s]
+
+*** SIGNIFICANT MOTION detected! (#56) at 14:59:35 ***
+
+x=  -522  y=  -232  z=   998  (mg)   [10.3 notifications/s]
+x=   149  y=  -462  z=   885  (mg)   [9.8 notifications/s]
+x=    -6  y=    76  z=  1009  (mg)   [9.8 notifications/s]
+x=    -6  y=    75  z=  1007  (mg)   [10.3 notifications/s]
+x=    -5  y=    76  z=  1003  (mg)   [9.8 notifications/s]
+x=    -6  y=    74  z=  1008  (mg)   [10.3 notifications/s]
+x=    -6  y=    74  z=  1035  (mg)   [9.8 notifications/s]
