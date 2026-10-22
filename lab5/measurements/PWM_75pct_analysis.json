@@ -1,0 +1,55 @@
+{
+  "source": "PWM_75pct_previous_version.csv",
+  "sample_rate_hz_from_screenshot": 1000000,
+  "cycles": [
+    {
+      "rise_index": 233,
+      "period_samples": 1001,
+      "high_samples": 751,
+      "low_samples": 250,
+      "duty_percent": 75.02497502497502
+    },
+    {
+      "rise_index": 1234,
+      "period_samples": 1001,
+      "high_samples": 750,
+      "low_samples": 251,
+      "duty_percent": 74.92507492507492
+    },
+    {
+      "rise_index": 2235,
+      "period_samples": 1000,
+      "high_samples": 750,
+      "low_samples": 250,
+      "duty_percent": 75.0
+    },
+    {
+      "rise_index": 3235,
+      "period_samples": 1001,
+      "high_samples": 751,
+      "low_samples": 250,
+      "duty_percent": 75.02497502497502
+    },
+    {
+      "rise_index": 4236,
+      "period_samples": 1000,
+      "high_samples": 750,
+      "low_samples": 250,
+      "duty_percent": 75.0
+    },
+    {
+      "rise_index": 5236,
+      "period_samples": 1001,
+      "high_samples": 751,
+      "low_samples": 250,
+      "duty_percent": 75.02497502497502
+    },
+    {
+      "rise_index": 6237,
+      "period_samples": 1000,
+      "high_samples": 750,
+      "low_samples": 250,
+      "duty_percent": 75.0
+    }
+  ]
+}
