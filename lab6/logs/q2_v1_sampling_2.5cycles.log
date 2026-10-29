@@ -1,0 +1,26 @@
+# HW6 Q2 第一版：助教原始 Sampling time = ADC_SAMPLETIME_2CYCLES_5（ADC clock 20 MHz → 0.125 us）
+# 2026-10-29 16:22 實測。結論：DMA 連續輪流正常（③ 不需修改）；raw ≈ 485（Q1 為 ≈ 950），T ≈ -121 C（② 必須修改）
+=== HW6 Q2: TIM1 -> ADC1 -> DMA1_CH1 (circular, half/full IRQ) -> RTOS task ===
+TIM1 clock 80000000 Hz / (PSC 3999 + 1) / (ARR 999 + 1) = 20 Hz
+buffer 256 samples, half = 128 samples -> one print every 6400 ms
+
+#1 [TOP half] buffer[0..127]  tick=6399 ms  dt=6399 ms
+ 490  488  485  487  488  486  487  487  485  485  486  487  487  486  485  486
+ ...（中略，共 8 行）
+avg raw=486  T=-121.22 C
+
+#2 [BOTTOM half] buffer[128..255]  tick=12799 ms  dt=6400 ms
+avg raw=485  T=-121.55 C
+#3 [TOP half] buffer[0..127]  tick=19199 ms  dt=6400 ms
+avg raw=485  T=-121.55 C
+#4 [BOTTOM half] buffer[128..255]  tick=25599 ms  dt=6400 ms
+avg raw=485  T=-121.55 C
+#5 [TOP half] buffer[0..127]  tick=31999 ms  dt=6400 ms
+avg raw=485  T=-121.55 C
+#6 [BOTTOM half] buffer[128..255]  tick=38399 ms  dt=6400 ms
+avg raw=485  T=-121.55 C
+#7 [TOP half] buffer[0..127]  tick=44799 ms  dt=6400 ms
+avg raw=486  T=-121.22 C
+#8 [BOTTOM half] buffer[128..255]  tick=51199 ms  dt=6400 ms
+avg raw=486  T=-121.22 C
+# 每半 128 筆原始值範圍：483 ~ 488

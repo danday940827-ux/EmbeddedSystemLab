@@ -13,3 +13,5 @@ homeworks
 - [Lab 4 — BLE GATT Server（STM32）與 Client（Raspberry Pi）](lab4/README.md)：STM32 以 FreeRTOS 提供加速度 GATT service，Pi 寫入取樣頻率並接收 notification；含 significant motion 選作。
 
 - [Lab 5 — PWM and Logic Analyzer](lab5/README.md)：目前為基本題；LED PWM 調光 10/45/95%，已保存舊版 75% LA 量測，最新版三組波形待補；Input Capture 尚未實作。
+
+- [Lab 6 — Timer 觸發 ADC 讀取內部溫度感測器](lab6/README.md)：TIM1 TRGO 觸發 ADC1 取樣溫度感測器；第 1 題每筆中斷通知 RTOS task，第 2 題 DMA circular 雙緩衝（助教框架）。

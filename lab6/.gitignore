@@ -1,0 +1,22 @@
+# Generated build output
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.su
+*.cyclo
+
+# Local workspace/debug state
+.metadata/
+*.launch
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# CubeIDE macOS 專屬設定
+.osx.project

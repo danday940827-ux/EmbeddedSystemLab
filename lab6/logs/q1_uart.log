@@ -1,0 +1,15 @@
+# HW6 Q1：TIM1 1 Hz 觸發 ADC1（溫度感測器，640.5 cycles）→ EOC 中斷 → thread flag → task 列印
+# 2026-10-29 15:51 實測（UART 115200），擷取第 298~310 筆
+#298  tick=298017 ms  dt=1000 ms  raw=950  T=30.00 C
+#299  tick=299017 ms  dt=1000 ms  raw=950  T=30.00 C
+#300  tick=300017 ms  dt=1000 ms  raw=951  T=30.32 C
+#301  tick=301017 ms  dt=1000 ms  raw=950  T=30.00 C
+#302  tick=302017 ms  dt=1000 ms  raw=950  T=30.00 C
+#303  tick=303017 ms  dt=1000 ms  raw=950  T=30.00 C
+#304  tick=304017 ms  dt=1000 ms  raw=951  T=30.32 C
+#305  tick=305017 ms  dt=1000 ms  raw=949  T=29.68 C
+#306  tick=306017 ms  dt=1000 ms  raw=950  T=30.00 C
+#307  tick=307017 ms  dt=1000 ms  raw=949  T=29.68 C
+#308  tick=308017 ms  dt=1000 ms  raw=949  T=29.68 C
+#309  tick=309017 ms  dt=1000 ms  raw=950  T=30.00 C
+#310  tick=310017 ms  dt=1000 ms  raw=950  T=30.00 C
